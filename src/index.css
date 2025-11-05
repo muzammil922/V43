@@ -48,21 +48,42 @@
 }
 
 @layer base {
+  /* Hide scrollbar for all elements */
   * {
     border-color: hsl(var(--border));
+    scrollbar-width: none !important; /* Firefox - hide scrollbar */
+    -ms-overflow-style: none !important; /* IE and Edge - hide scrollbar */
   }
-  html, body {
+  *::-webkit-scrollbar {
+    display: none !important; /* Chrome, Safari, Opera - hide scrollbar */
+    width: 0 !important;
+    height: 0 !important;
+    background: transparent !important;
+  }
+  html {
+    scroll-behavior: smooth !important;
     overflow-x: hidden;
+    overflow-y: auto;
     max-width: 100vw;
-    scrollbar-width: none; /* Firefox - hide scrollbar */
-    -ms-overflow-style: none; /* IE and Edge - hide scrollbar */
+    scrollbar-width: none !important; /* Firefox - hide scrollbar */
+    -ms-overflow-style: none !important; /* IE and Edge - hide scrollbar */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  }
+  body {
+    scroll-behavior: smooth !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-width: 100vw;
+    scrollbar-width: none !important; /* Firefox - hide scrollbar */
+    -ms-overflow-style: none !important; /* IE and Edge - hide scrollbar */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
   }
   html::-webkit-scrollbar,
   body::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera - hide scrollbar */
-    width: 0;
-    height: 0;
-    background: transparent;
+    display: none !important; /* Chrome, Safari, Opera - hide scrollbar */
+    width: 0 !important;
+    height: 0 !important;
+    background: transparent !important;
   }
   body {
     background-color: hsl(var(--background));
@@ -94,7 +115,9 @@
     transition: all ease 0.3s;
 }
 
-.link:hover .moveLink{
+.link:hover .moveLink,
+.link:active .moveLink,
+.link.touch-active .moveLink{
     opacity: 1;
 }
 
@@ -107,7 +130,7 @@
     }
 }
 
-/* Hide scrollbar for Agence page parent */
+/* Hide scrollbar for Agancy page parent */
 .parent {
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE and Edge */
@@ -120,7 +143,7 @@
     background: transparent;
 }
 
-/* Hide scrollbar for Agence page2 */
+/* Hide scrollbar for Agancy page2 */
 #page2 {
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE and Edge */

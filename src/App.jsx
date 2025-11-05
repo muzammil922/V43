@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import Agence from './pages/Agence'
+import Agancy from './pages/Agancy'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import Fact from './pages/Fact'
@@ -18,7 +18,7 @@ const App = () => {
       <FullScreenNav />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/agence' element={<Agence />} />
+        <Route path='/agancy' element={<Agancy />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/fact' element={<Fact />} />

@@ -36,8 +36,9 @@ export const Timeline: React.FC<TimelineProps> = ({ data }) => {
 
   return (
     <div
-      className="w-full bg-black font-sans md:px-10"
+      className="w-full bg-black font-sans md:px-10 relative"
       ref={containerRef}
+      style={{ position: 'relative' }}
     >
       <div ref={ref} className="relative max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10 pb-20">
         {data.map((item, index) => (

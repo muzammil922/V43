@@ -1,3 +1,6 @@
+# Robots.txt for V43 | VibeX Solution
+# https://v43.pro
+
 User-agent: *
 Allow: /
 
@@ -7,17 +10,30 @@ Sitemap: https://v43.pro/sitemap.xml
 # Disallow admin and private areas (if any)
 Disallow: /admin/
 Disallow: /private/
+Disallow: /api/
 
-# Allow all search engines
+# Allow all major search engines
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 0
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 0
 
 User-agent: Slurp
 Allow: /
+Crawl-delay: 1
 
-# Crawl delay (optional)
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# Crawl delay for other bots
 Crawl-delay: 1
 

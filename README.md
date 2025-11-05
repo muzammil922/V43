@@ -79,7 +79,7 @@ For EmailJS functionality, set these in Vercel:
 ## Pages
 
 - `/` - Home page
-- `/agence` - Agency/Team page
+- `/agancy` - Agency/Team page
 - `/projects` - Projects showcase
 - `/contact` - Contact form
 - `/fact` - Fun facts page

@@ -12,7 +12,7 @@ const NavContext = ({ children }) => {
 
     const locate = useLocation().pathname
     useEffect(function(){
-        if(locate == '/projects' || locate == '/agence' || locate == '/contact' || locate == '/fact' || locate == '/privacy-policy' || locate == '/terms-of-service' || locate == '/cookie-policy'){
+        if(locate == '/projects' || locate == '/agancy' || locate == '/contact' || locate == '/fact' || locate == '/privacy-policy' || locate == '/terms-of-service' || locate == '/cookie-policy'){
             setNavColor('black')
         }else{
             setNavColor('white')

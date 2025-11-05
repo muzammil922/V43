@@ -405,23 +405,26 @@ const Contact = () => {
         ref={footerRef}
         className="bg-black text-white flex flex-col"
         style={{ 
-          height: '35vh',
+          height: 'auto',
+          minHeight: '25vh',
+          maxHeight: '35vh',
           zIndex: 50,
-          width: '100vw',
+          width: '100%',
           position: 'fixed',
           bottom: 0,
-          left: 0
+          left: 0,
+          right: 0
         }}
       >
         {/* Top Section - Social Icons and Contact */}
-        <div className="flex items-center justify-between px-6 lg:px-12 py-6 lg:py-8">
+        <div className="flex flex-col md:flex-row items-center justify-between px-4 md:px-6 lg:px-12 py-4 md:py-6 lg:py-8 gap-4 md:gap-0">
           {/* Left - Social Icons */}
-          <div className="flex items-center gap-3 lg:gap-4">
+          <div className="flex items-center gap-2 md:gap-3 lg:gap-4">
             <a
               href="https://facebook.com/mydashypro"
               target="_blank"
               rel="noopener noreferrer"
-              className="h-20 px-8 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-lg lg:text-xl font-bold uppercase"
+              className="h-12 md:h-16 lg:h-20 px-4 md:px-6 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs md:text-sm lg:text-xl font-bold uppercase"
             >
               FB
             </a>
@@ -429,7 +432,7 @@ const Contact = () => {
               href="https://www.instagram.com/vibex.solution/"
               target="_blank"
               rel="noopener noreferrer"
-              className="h-20 px-8 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-lg lg:text-xl font-bold uppercase"
+              className="h-12 md:h-16 lg:h-20 px-4 md:px-6 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs md:text-sm lg:text-xl font-bold uppercase"
             >
               IG
             </a>
@@ -437,7 +440,7 @@ const Contact = () => {
               href="https://x.com/vibex_solution"
               target="_blank"
               rel="noopener noreferrer"
-              className="h-20 px-8 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-lg lg:text-xl font-bold uppercase"
+              className="h-12 md:h-16 lg:h-20 px-4 md:px-6 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs md:text-sm lg:text-xl font-bold uppercase"
             >
               X
             </a>
@@ -445,7 +448,7 @@ const Contact = () => {
               href="https://wa.me/923113840943?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services."
               target="_blank"
               rel="noopener noreferrer"
-              className="h-20 px-8 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-lg lg:text-xl font-bold uppercase"
+              className="h-12 md:h-16 lg:h-20 px-4 md:px-6 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs md:text-sm lg:text-xl font-bold uppercase"
             >
               WA
             </a>
@@ -453,7 +456,7 @@ const Contact = () => {
 
           {/* Right - Contact Button */}
           <div className="flex items-center">
-            <button className="h-20 px-10 lg:px-16 rounded-full border-2 border-white flex items-center justify-center gap-2 hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-lg lg:text-xl font-bold uppercase">
+            <button className="h-12 md:h-16 lg:h-20 px-6 md:px-8 lg:px-16 rounded-full border-2 border-white flex items-center justify-center gap-1 md:gap-2 hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs md:text-sm lg:text-xl font-bold uppercase">
               CONTACT
               <span className="text-white">♥</span>
             </button>
@@ -461,28 +464,28 @@ const Contact = () => {
         </div>
 
         {/* Bottom Section - Links */}
-        <div className="flex items-center justify-between px-4 lg:px-8 py-3 lg:py-4 absolute bottom-0 left-0 right-0">
+        <div className="flex flex-col md:flex-row items-center justify-between px-3 md:px-4 lg:px-8 py-2 md:py-3 lg:py-4 relative gap-2 md:gap-0">
           {/* Left - Time */}
-          <div className="flex-1 flex items-center gap-3 lg:gap-4">
-            <svg className="w-7 h-7 lg:w-8 lg:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="flex-1 flex items-center justify-center md:justify-start gap-2 md:gap-3 lg:gap-4">
+            <svg className="w-5 h-5 md:w-6 md:h-6 lg:w-8 lg:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 002 2 2 2 0 002-2v-1a2 2 0 012-2h1.945M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <span className="uppercase text-base text-xl font-[font2] lg:text-2xl font-semibold text-white">{footerTime}</span>
+            <span className="uppercase text-xs md:text-sm lg:text-2xl font-[font2] font-semibold text-white">{footerTime}</span>
           </div>
           
           {/* Policy Links - Centered */}
-          <div className="flex items-center justify-center gap-3 lg:gap-4 text-sm lg:text-base">
+          <div className="flex flex-wrap items-center justify-center gap-1 md:gap-2 lg:gap-4 text-xs md:text-sm lg:text-base">
             <a href="/privacy-policy" className="text-white hover:text-[#D3FD50] transition-colors uppercase cursor-pointer">
               PRIVACY POLICY
             </a>
             
-            <span className="text-white">|</span>
+            <span className="text-white hidden md:inline">|</span>
             
             <a href="/terms-of-service" className="text-white hover:text-[#D3FD50] transition-colors uppercase cursor-pointer">
               TERMS OF SERVICE
             </a>
             
-            <span className="text-white">|</span>
+            <span className="text-white hidden md:inline">|</span>
            
             <a href="/cookie-policy" className="text-white hover:text-[#D3FD50] transition-colors uppercase cursor-pointer">
               COOKIE POLICY
@@ -490,10 +493,10 @@ const Contact = () => {
           </div>
           
           {/* Right - BACK TO TOP */}
-          <div className="flex-1 flex justify-end">
+          <div className="flex-1 flex justify-center md:justify-end">
             <button 
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              className="text-white hover:text-[#D3FD50] transition-colors uppercase cursor-pointer text-xl font-[font2] lg:text-2xl font-semibold"
+              className="text-white hover:text-[#D3FD50] transition-colors uppercase cursor-pointer text-xs md:text-sm lg:text-2xl font-[font2] font-semibold"
             >
               BACK TO TOP
             </button>
