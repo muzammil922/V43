@@ -1,0 +1,59 @@
+{
+  "tech_stack": [
+    "JavaScript",
+    "React",
+    "Vite",
+    "GSAP",
+    "TailwindCSS",
+    "React Router",
+    "Framer Motion"
+  ],
+  "features": [
+    {
+      "name": "Agency Page",
+      "description": "Main agency page with animated team member images, scroll-triggered animations, timeline section, and footer with social links and contact information",
+      "files": ["src/pages/Agence.jsx"]
+    },
+    {
+      "name": "Timeline Component",
+      "description": "Animated timeline component using Framer Motion for displaying project information with scroll-based animations",
+      "files": ["src/components/ui/timeline.tsx"]
+    },
+    {
+      "name": "Navigation",
+      "description": "Navigation components including navbar and full-screen navigation menu",
+      "files": ["src/components/Navigation/Navbar.jsx", "src/components/Navigation/FullScreenNav.jsx"]
+    },
+    {
+      "name": "Contact Page",
+      "description": "Contact page with form, contact information, and animated footer",
+      "files": ["src/pages/Contact.jsx"]
+    },
+    {
+      "name": "Home Page",
+      "description": "Home page with hero text, video, and bottom text components",
+      "files": ["src/pages/Home.jsx", "src/components/home/HomeHeroText.jsx", "src/components/home/HomeBottomText.jsx", "src/components/home/Video.jsx"]
+    },
+    {
+      "name": "Projects Page",
+      "description": "Projects page displaying project cards",
+      "files": ["src/pages/Projects.jsx", "src/components/projects/ProjectCard.jsx"]
+    },
+    {
+      "name": "App Router",
+      "description": "Main application router configuration with routes for different pages",
+      "files": ["src/App.jsx", "src/main.jsx"]
+    },
+    {
+      "name": "GSAP Animations",
+      "description": "Scroll-triggered animations using GSAP and ScrollTrigger plugin for smooth scrolling effects",
+      "files": ["src/pages/Agence.jsx", "src/pages/Contact.jsx"]
+    },
+    {
+      "name": "Footer Component",
+      "description": "Footer with social media links, contact button, time display, policy links, and back to top button",
+      "files": ["src/pages/Agence.jsx", "src/pages/Contact.jsx"]
+    }
+  ]
+}
+
