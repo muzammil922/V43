@@ -4,6 +4,7 @@ import { ScrollTrigger } from 'gsap/all'
 import { useRef, useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Timeline } from '../components/ui/timeline'
+import SEO from '../components/SEO/SEO'
 
 const Agence = () => {
 
@@ -543,18 +544,24 @@ const Agence = () => {
 
 
   return (
-    <div 
-      className='parent' 
-      style={{ 
-        transform: 'scale(0.95)', 
-        transformOrigin: 'top center',
-        scrollbarWidth: 'none', // Firefox
-        msOverflowStyle: 'none', // IE and Edge
-        overflowX: 'hidden',
-        marginBottom: 0,
-        paddingBottom: 0
-      }}
-    >
+    <>
+      <SEO 
+        title="V43 | VibeX Solution Agency - Our Team & Services"
+        description="Meet the V43 and VibeX Solution team. Learn about our AI-powered business solutions, digital transformation services, and how we help companies worldwide scale operations."
+        keywords="V43 agency, VibeX Solution team, vibexsolution services, V43 team members, VibeX Solution professionals, AI consulting team"
+      />
+      <div 
+        className='parent' 
+        style={{ 
+          transform: 'scale(0.95)', 
+          transformOrigin: 'top center',
+          scrollbarWidth: 'none', // Firefox
+          msOverflowStyle: 'none', // IE and Edge
+          overflowX: 'hidden',
+          marginBottom: 0,
+          paddingBottom: 0
+        }}
+      >
       <div ref={page1Ref} id='page1' className='py-1 '>
         <div ref={contentSectionRef}>
           <div ref={imageDivRef} className='absolute overflow-hidden lg:h-[20vw] h-[30vw] lg:rounded-3xl rounded-xl lg:w-[15vw] w-[25vw] lg:top-96 -top-80 lg:left-[30vw] left-[30vw]'>
@@ -710,6 +717,7 @@ const Agence = () => {
         </footer>
       </div>
     </div>
+    </>
   )
 }
 

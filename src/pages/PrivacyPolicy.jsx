@@ -2,6 +2,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import { useRef, useEffect } from 'react'
+import SEO from '../components/SEO/SEO'
 
 const PrivacyPolicy = () => {
   gsap.registerPlugin(ScrollTrigger)
@@ -54,11 +55,17 @@ const PrivacyPolicy = () => {
   }, [])
 
   return (
-    <div
-      ref={containerRef}
-      className="min-h-screen bg-white text-black relative"
-      style={{ transform: 'scale(0.95)', transformOrigin: 'top center' }}
-    >
+    <>
+      <SEO 
+        title="V43 | VibeX Solution Privacy Policy"
+        description="Privacy Policy for V43 and VibeX Solution. Learn how we collect, use, and protect your personal information when using our AI-powered business solutions."
+        keywords="V43 privacy policy, VibeX Solution privacy, data protection, privacy policy"
+      />
+      <div
+        ref={containerRef}
+        className="min-h-screen bg-white text-black relative"
+        style={{ transform: 'scale(0.95)', transformOrigin: 'top center' }}
+      >
       {/* Main Content */}
       <div ref={contentRef} className="max-w-4xl mx-auto px-6 lg:px-12 py-20 lg:py-32">
         {/* Header */}

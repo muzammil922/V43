@@ -3,6 +3,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import { useRef, useState, useEffect } from 'react'
 import emailjs from '@emailjs/browser'
+import SEO from '../components/SEO/SEO'
 
 // EmailJS Configuration Variables
 // Get these from: https://www.emailjs.com/
@@ -244,6 +245,11 @@ const Contact = () => {
 
   return (
     <>
+      <SEO 
+        title="V43 | VibeX Solution Contact - Get In Touch"
+        description="Contact V43 and VibeX Solution for AI-powered business solutions. Reach out to us for digital transformation, AI consulting, and innovative technology solutions."
+        keywords="V43 contact, VibeX Solution contact, vibexsolution email, V43 phone number, contact VibeX Solution, V43 support"
+      />
       <div ref={containerRef} className="min-h-screen bg-white text-black relative pb-[35vh]" style={{ transform: 'scale(0.95)', transformOrigin: 'top center' }}>
         {/* Main Content */}
         <div ref={contentSectionRef} className="max-w-6xl mx-auto px-6 lg:px-12 py-20 lg:py-32">

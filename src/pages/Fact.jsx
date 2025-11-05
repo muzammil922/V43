@@ -2,6 +2,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import { useRef, useEffect } from 'react'
+import SEO from '../components/SEO/SEO'
 
 const Fact = () => {
   gsap.registerPlugin(ScrollTrigger)
@@ -116,11 +117,17 @@ const Fact = () => {
   }, [])
 
   return (
-    <div 
-      ref={containerRef} 
-      className="min-h-screen bg-white text-black relative" 
-      style={{ transform: 'scale(0.95)', transformOrigin: 'top center' }}
-    >
+    <>
+      <SEO 
+        title="V43 | VibeX Solution Fun Facts - Tech Jokes & Facts"
+        description="Fun facts and tech jokes from V43 and VibeX Solution. Discover interesting tech humor and facts while learning about our AI-powered solutions."
+        keywords="V43 fun facts, VibeX Solution jokes, tech humor, programming jokes, AI facts, V43 tech facts"
+      />
+      <div 
+        ref={containerRef} 
+        className="min-h-screen bg-white text-black relative" 
+        style={{ transform: 'scale(0.95)', transformOrigin: 'top center' }}
+      >
       {/* Main Content */}
       <div className="max-w-6xl mx-auto px-6 lg:px-12 py-20 lg:py-32">
         {/* Header */}
@@ -168,6 +175,7 @@ const Fact = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

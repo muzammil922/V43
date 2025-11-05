@@ -2,6 +2,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import { useRef, useEffect } from 'react'
+import SEO from '../components/SEO/SEO'
 
 const TermsOfService = () => {
   gsap.registerPlugin(ScrollTrigger)
@@ -144,6 +145,7 @@ const TermsOfService = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

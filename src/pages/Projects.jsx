@@ -4,6 +4,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import { useRef, useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import SEO from '../components/SEO/SEO'
 
 
 const Projects = () => {
@@ -182,6 +183,11 @@ const Projects = () => {
 
   return (
     <>
+      <SEO 
+        title="V43 | VibeX Solution Projects - Our Work & Portfolio"
+        description="Explore V43 and VibeX Solution projects. See our AI-powered solutions, digital transformation projects, and successful implementations for 50+ companies worldwide."
+        keywords="V43 projects, VibeX Solution portfolio, vibexsolution work, V43 case studies, AI project examples, digital transformation projects"
+      />
       <div className='lg:p-4 p-2 pb-[35vh]'>
         <div ref={contentSectionRef} className=''>
           <div className=' pt-[45vh]'>

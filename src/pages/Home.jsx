@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Video from '../components/home/Video'
 import HomeHeroText from '../components/home/HomeHeroText'
 import HomeBottomText from '../components/home/HomeBottomText'
+import SEO from '../components/SEO/SEO'
 
 const Home = () => {
   const [pakistanTime, setPakistanTime] = useState('')
@@ -26,7 +27,13 @@ const Home = () => {
   }, [])
 
   return (
-    <div className='text-white'>
+    <>
+      <SEO 
+        title="V43 | VibeX Solution - AI-Powered Business Solutions & Digital Transformation"
+        description="V43 and VibeX Solution - Leading AI-powered business solutions provider. We help 50+ companies worldwide enhance efficiency, scale operations, and unlock growth through innovative AI technology. Founded in 2020."
+        keywords="V43, VibeX Solution, vibexsolution, AI solutions, business automation, digital transformation, AI-powered solutions, V43 technology, VibeX AI, enterprise AI"
+      />
+      <div className='text-white'>
       <div className='h-screen w-screen fixed'>
         <Video />
       </div>
@@ -56,7 +63,8 @@ const Home = () => {
   </div>
 </div>
 </div>
-);
-};
+    </>
+  )
+}
 
-export default Home;
+export default Home
