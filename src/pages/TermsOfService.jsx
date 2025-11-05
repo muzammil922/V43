@@ -55,11 +55,17 @@ const TermsOfService = () => {
   }, [])
 
   return (
-    <div
-      ref={containerRef}
-      className="min-h-screen bg-white text-black relative"
-      style={{ transform: 'scale(0.95)', transformOrigin: 'top center' }}
-    >
+    <>
+      <SEO 
+        title="V43 | VibeX Solution Terms of Service"
+        description="Terms of Service for V43 and VibeX Solution. Read our terms and conditions for using our AI-powered business solutions and services."
+        keywords="V43 terms of service, VibeX Solution terms, terms and conditions"
+      />
+      <div
+        ref={containerRef}
+        className="min-h-screen bg-white text-black relative"
+        style={{ transform: 'scale(0.95)', transformOrigin: 'top center' }}
+      >
       {/* Main Content */}
       <div ref={contentRef} className="max-w-4xl mx-auto px-6 lg:px-12 py-20 lg:py-32">
         {/* Header */}

@@ -55,11 +55,17 @@ const CookiePolicy = () => {
   }, [])
 
   return (
-    <div
-      ref={containerRef}
-      className="min-h-screen bg-white text-black relative"
-      style={{ transform: 'scale(0.95)', transformOrigin: 'top center' }}
-    >
+    <>
+      <SEO 
+        title="V43 | VibeX Solution Cookie Policy"
+        description="Cookie Policy for V43 and VibeX Solution. Learn about how we use cookies on our website and how you can manage your cookie preferences."
+        keywords="V43 cookie policy, VibeX Solution cookies, cookie policy"
+      />
+      <div
+        ref={containerRef}
+        className="min-h-screen bg-white text-black relative"
+        style={{ transform: 'scale(0.95)', transformOrigin: 'top center' }}
+      >
       {/* Main Content */}
       <div ref={contentRef} className="max-w-4xl mx-auto px-6 lg:px-12 py-20 lg:py-32">
         {/* Header */}
@@ -163,6 +169,7 @@ const CookiePolicy = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
