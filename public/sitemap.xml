@@ -6,7 +6,7 @@
   
   <!-- Home Page -->
   <url>
-    <loc>https://vibexsolution.com/</loc>
+    <loc>https://v43.pro/</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@
   
   <!-- Agency Page -->
   <url>
-    <loc>https://vibexsolution.com/agence</loc>
+    <loc>https://v43.pro/agence</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -22,7 +22,7 @@
   
   <!-- Projects Page -->
   <url>
-    <loc>https://vibexsolution.com/projects</loc>
+    <loc>https://v43.pro/projects</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -30,7 +30,7 @@
   
   <!-- Contact Page -->
   <url>
-    <loc>https://vibexsolution.com/contact</loc>
+    <loc>https://v43.pro/contact</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -38,7 +38,7 @@
   
   <!-- Fact Page -->
   <url>
-    <loc>https://vibexsolution.com/fact</loc>
+    <loc>https://v43.pro/fact</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -46,7 +46,7 @@
   
   <!-- Privacy Policy -->
   <url>
-    <loc>https://vibexsolution.com/privacy-policy</loc>
+    <loc>https://v43.pro/privacy-policy</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -54,7 +54,7 @@
   
   <!-- Terms of Service -->
   <url>
-    <loc>https://vibexsolution.com/terms-of-service</loc>
+    <loc>https://v43.pro/terms-of-service</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -62,7 +62,7 @@
   
   <!-- Cookie Policy -->
   <url>
-    <loc>https://vibexsolution.com/cookie-policy</loc>
+    <loc>https://v43.pro/cookie-policy</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>

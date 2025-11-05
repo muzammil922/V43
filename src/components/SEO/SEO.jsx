@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom'
 
 const SEO = ({ title, description, keywords, image, type = 'website' }) => {
   const location = useLocation()
-  const baseUrl = 'https://vibexsolution.com'
+  const baseUrl = 'https://v43.pro'
   const currentUrl = `${baseUrl}${location.pathname}`
   const defaultImage = `${baseUrl}/V43%20Logo.png`
   const defaultTitle = 'V43 | VibeX Solution - AI-Powered Business Solutions'
