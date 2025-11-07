@@ -39,29 +39,29 @@ const Agancy = () => {
       title: "myDashy Pro",
       content: (
         <div>
-          <p className="text-neutral-300 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-300 text-xs sm:text-sm md:text-base font-normal mb-4 sm:mb-6 md:mb-8 leading-relaxed">
             Complete business management platform with automation and AI-powered workflows.
           </p>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4">
             <img
               src="/SaaS Management System.png"
               alt="myDashy Pro project"
-              className="h-20 md:h-40 lg:h-55 w-full rounded-lg hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+              className="h-16 sm:h-24 md:h-32 lg:h-40 xl:h-44 w-full rounded-md sm:rounded-lg object-cover hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
             />
             <img
               src="/myDashy-Pro-2.png"
               alt="myDashy Pro project 2"
-              className="h-20 md:h-40 lg:h-55 w-full rounded-lg hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+              className="h-16 sm:h-24 md:h-32 lg:h-40 xl:h-44 w-full rounded-md sm:rounded-lg object-cover hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
             />
             <img
               src="/myDashy-Pro-3.png"
               alt="myDashy Pro project 3"
-              className="h-20 md:h-40 lg:h-55 w-full rounded-lg hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+              className="h-16 sm:h-24 md:h-32 lg:h-40 xl:h-44 w-full rounded-md sm:rounded-lg object-cover hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
             />
             <img
               src="/myDashy-Pro-login.png"
               alt="myDashy Pro project 4"
-              className="h-20 md:h-40 lg:h-55 w-full rounded-lg hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+              className="h-16 sm:h-24 md:h-32 lg:h-40 xl:h-44 w-full rounded-md sm:rounded-lg object-cover hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
             />
           </div>
         </div>
@@ -71,29 +71,29 @@ const Agancy = () => {
       title: "E-commerce",
       content: (
         <div>
-          <p className="text-neutral-300 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-300 text-xs sm:text-sm md:text-base font-normal mb-4 sm:mb-6 md:mb-8 leading-relaxed">
             Innovative design solutions that blend creativity with functionality for exceptional user experiences.
           </p>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4">
             <img
               src="/E-commerce Platform.jpeg"
               alt="E-commerce project"
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+              className="rounded-md sm:rounded-lg object-cover h-16 sm:h-24 md:h-32 lg:h-44 xl:h-56 2xl:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
             />
             <img
               src="/AI Dashboard Platform.jpeg"
               alt="E-commerce project 2"
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+              className="rounded-md sm:rounded-lg object-cover h-16 sm:h-24 md:h-32 lg:h-44 xl:h-56 2xl:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
             />
             <img
               src="/AI Dashboard Platform.jpeg"
               alt="E-commerce project 3"
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+              className="rounded-md sm:rounded-lg object-cover h-16 sm:h-24 md:h-32 lg:h-44 xl:h-56 2xl:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
             />
             <img
               src="/E-commerce Platform.jpeg"
               alt="E-commerce project 4"
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+              className="rounded-md sm:rounded-lg object-cover h-16 sm:h-24 md:h-32 lg:h-44 xl:h-56 2xl:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
             />
           </div>
         </div>
@@ -103,29 +103,29 @@ const Agancy = () => {
       title: "CRM Automation",
       content: (
         <div>
-          <p className="text-neutral-300 text-xs md:text-sm font-normal mb-8">
+          <p className="text-neutral-300 text-xs sm:text-sm md:text-base font-normal mb-4 sm:mb-6 md:mb-8 leading-relaxed">
             A fresh approach to branding and digital presence that captures the essence of natural flavors.
           </p>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4">
             <img
               src="/CRM Automation Suite.jpeg"
               alt="CRM Automation project"
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+              className="rounded-md sm:rounded-lg object-cover h-16 sm:h-24 md:h-32 lg:h-44 xl:h-56 2xl:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
             />
             <img
               src="/Data Analytics Platform.jpeg"
               alt="CRM Automation project"
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+              className="rounded-md sm:rounded-lg object-cover h-16 sm:h-24 md:h-32 lg:h-44 xl:h-56 2xl:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
             />
             <img
               src="/Data Analytics Platform.jpeg"
               alt="CRM Automation project"
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+              className="rounded-md sm:rounded-lg object-cover h-16 sm:h-24 md:h-32 lg:h-44 xl:h-56 2xl:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
             />
             <img
               src="/CRM Automation Suite.jpeg"
               alt="CRM Automation project"
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+              className="rounded-md sm:rounded-lg object-cover h-16 sm:h-24 md:h-32 lg:h-44 xl:h-56 2xl:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
             />
           </div>
         </div>
@@ -463,16 +463,16 @@ const Agancy = () => {
         }}
       >
         {/* Hero Section */}
-        <section ref={heroRef} className="min-h-screen flex flex-col justify-center items-center px-4 py-20 lg:py-32 relative">
+        <section ref={heroRef} className="min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20 lg:py-24 pb-0 sm:pb-2 md:pb-4 lg:pb-6 relative bg-white">
           <div className="max-w-7xl mx-auto w-full">
-            <div className="text-center mb-12">
-              <h1 className="hero-text text-[15vw] lg:text-[12vw] font-[font2] font-bold uppercase leading-none mb-6 text-black">
+            <div className="text-center mb-0 sm:mb-1 md:mb-2">
+              <h1 className="hero-text text-[14vw] sm:text-[12vw] md:text-[10vw] lg:text-[9vw] xl:text-[8vw] font-[font2] font-bold uppercase leading-[0.9] mb-3 sm:mb-4 md:mb-5 text-black">
                 VibeX
               </h1>
-              <h1 className="hero-text text-[15vw] lg:text-[12vw] font-[font2] font-bold uppercase leading-none mb-8 text-black">
+              <h1 className="hero-text text-[14vw] sm:text-[12vw] md:text-[10vw] lg:text-[9vw] xl:text-[8vw] font-[font2] font-bold uppercase leading-[0.9] mb-4 sm:mb-6 md:mb-8 text-black">
                 Solution
               </h1>
-              <p className="hero-text text-lg lg:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+              <p className="hero-text text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed px-2 sm:px-4">
                 Our journey began with a mission to bridge the gap between advanced AI research and real-world business needs. 
                 Since then, we've helped <span className="font-bold text-[#D3FD50]">50+ companies</span> worldwide enhance efficiency, 
                 scale operations, and unlock new growth through AI-powered solutions.
@@ -482,44 +482,44 @@ const Agancy = () => {
         </section>
 
         {/* Stats Section */}
-        <section ref={statsRef} className="py-20 lg:py-32 bg-white">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        <section ref={statsRef} className="pt-0 sm:pt-1 md:pt-2 lg:pt-4 pb-12 sm:pb-16 md:pb-20 lg:pb-24 xl:pb-32 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 md:gap-10 lg:gap-12">
               <div className="stat-item text-center">
-                <div className="text-5xl lg:text-7xl font-bold text-black mb-4">50+</div>
-                <div className="text-sm lg:text-base text-gray-600 uppercase">Companies Served</div>
+                <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-2 sm:mb-3 md:mb-4">50+</div>
+                <div className="text-xs sm:text-sm md:text-base text-gray-600 uppercase leading-tight">Companies Served</div>
               </div>
               <div className="stat-item text-center">
-                <div className="text-5xl lg:text-7xl font-bold text-black mb-4">2020</div>
-                <div className="text-sm lg:text-base text-gray-600 uppercase">Founded</div>
+                <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-2 sm:mb-3 md:mb-4">2020</div>
+                <div className="text-xs sm:text-sm md:text-base text-gray-600 uppercase leading-tight">Founded</div>
               </div>
               <div className="stat-item text-center">
-                <div className="text-5xl lg:text-7xl font-bold text-black mb-4">100%</div>
-                <div className="text-sm lg:text-base text-gray-600 uppercase">AI-Powered</div>
+                <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-2 sm:mb-3 md:mb-4">100%</div>
+                <div className="text-xs sm:text-sm md:text-base text-gray-600 uppercase leading-tight">AI-Powered</div>
               </div>
               <div className="stat-item text-center">
-                <div className="text-5xl lg:text-7xl font-bold text-black mb-4">24/7</div>
-                <div className="text-sm lg:text-base text-gray-600 uppercase">Support</div>
+                <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-2 sm:mb-3 md:mb-4">24/7</div>
+                <div className="text-xs sm:text-sm md:text-base text-gray-600 uppercase leading-tight">Support</div>
               </div>
             </div>
           </div>
         </section>
 
         {/* Team Section */}
-        <section ref={teamSectionRef} className="min-h-screen bg-black flex items-center justify-center px-4 py-20 relative overflow-hidden">
+        <section ref={teamSectionRef} className="min-h-screen bg-black flex items-center justify-center px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20 lg:py-24 relative overflow-hidden">
           {/* Animated background text */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-            <h2 className="text-[20vw] lg:text-[15vw] font-bold uppercase text-white opacity-5 whitespace-nowrap">
+            <h2 className="text-[18vw] sm:text-[16vw] md:text-[14vw] lg:text-[12vw] xl:text-[10vw] font-bold uppercase text-white opacity-5 whitespace-nowrap">
               {currentMember?.title || 'TEAM'}
             </h2>
           </div>
 
           <div className="max-w-7xl mx-auto w-full relative z-10">
-            <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-20">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-8 sm:gap-10 md:gap-12 lg:gap-16 xl:gap-20">
               {/* Team Member Image */}
               <div className="team-image relative">
-                <div className="w-[300px] h-[450px] lg:w-[400px] lg:h-[600px] rounded-3xl overflow-hidden bg-gradient-to-br from-[#D3FD50] to-[#a8d140] p-1 shadow-2xl">
-                  <div className="w-full h-full rounded-3xl overflow-hidden bg-black">
+                <div className="w-[250px] h-[375px] sm:w-[280px] sm:h-[420px] md:w-[320px] md:h-[480px] lg:w-[380px] lg:h-[570px] xl:w-[400px] xl:h-[600px] rounded-2xl sm:rounded-3xl overflow-hidden bg-gradient-to-br from-[#D3FD50] to-[#a8d140] p-1 shadow-2xl">
+                  <div className="w-full h-full rounded-2xl sm:rounded-3xl overflow-hidden bg-black">
                     <img 
                       src={currentMember?.image || '/team member 1.png'} 
                       alt={currentMember?.name || 'Team Member'}
@@ -528,34 +528,34 @@ const Agancy = () => {
                   </div>
                 </div>
                 {/* Decorative elements */}
-                <div className="absolute -top-4 -right-4 w-24 h-24 bg-[#D3FD50] rounded-full opacity-20 blur-2xl"></div>
-                <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-[#D3FD50] rounded-full opacity-20 blur-3xl"></div>
+                <div className="absolute -top-2 -right-2 sm:-top-4 sm:-right-4 w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 bg-[#D3FD50] rounded-full opacity-20 blur-2xl"></div>
+                <div className="absolute -bottom-2 -left-2 sm:-bottom-4 sm:-left-4 w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 bg-[#D3FD50] rounded-full opacity-20 blur-3xl"></div>
               </div>
 
               {/* Team Member Info */}
               <div className="text-center lg:text-left">
-                <div className="mb-6">
-                  <div className="text-[#D3FD50] text-sm lg:text-base font-bold uppercase tracking-wider mb-2">
+                <div className="mb-4 sm:mb-5 md:mb-6">
+                  <div className="text-[#D3FD50] text-xs sm:text-sm md:text-base font-bold uppercase tracking-wider mb-2 sm:mb-3">
                     {currentMember?.role || 'FOUNDER'}
                   </div>
-                  <h2 className="text-6xl lg:text-8xl font-bold text-white uppercase mb-4">
+                  <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white uppercase mb-3 sm:mb-4 leading-tight">
                     {currentMember?.title || 'TEAM LEAD'}
                   </h2>
-                  <p className="text-gray-400 text-lg lg:text-xl">
+                  <p className="text-gray-400 text-base sm:text-lg md:text-xl">
                     {currentMember?.name || 'Leadership'}
                   </p>
                 </div>
 
                 {/* Indicator dots */}
-                <div className="flex gap-2 justify-center lg:justify-start mt-8">
+                <div className="flex gap-2 justify-center lg:justify-start mt-6 sm:mt-8">
                   {teamMembers.map((_, index) => (
                     <button
                       key={index}
                       onClick={() => setCurrentImageIndex(index)}
-                      className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                      className={`h-3 rounded-full transition-all duration-300 ${
                         index === currentImageIndex 
                           ? 'bg-[#D3FD50] w-8' 
-                          : 'bg-white/30 hover:bg-white/50'
+                          : 'bg-white/30 hover:bg-white/50 w-3'
                       }`}
                       aria-label={`View team member ${index + 1}`}
                     />
@@ -590,14 +590,14 @@ const Agancy = () => {
           }}
         >
           {/* Top Section - Social Icons and Contact */}
-          <div className="flex flex-col md:flex-row items-center justify-between px-4 md:px-6 lg:px-12 py-4 md:py-6 lg:py-8 gap-4 md:gap-0">
+          <div className="flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 md:px-8 lg:px-12 py-3 sm:py-4 md:py-5 lg:py-6 gap-3 sm:gap-4 md:gap-0">
             {/* Left - Social Icons */}
-            <div className="flex items-center gap-2 md:gap-3 lg:gap-4">
+            <div className="flex items-center gap-2 sm:gap-2.5 md:gap-3 lg:gap-4 flex-wrap justify-center md:justify-start">
               <a
                 href="https://facebook.com/mydashypro"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="h-12 md:h-16 lg:h-20 px-4 md:px-6 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs md:text-sm lg:text-xl font-bold uppercase"
+                className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 px-3 sm:px-4 md:px-5 lg:px-6 xl:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold uppercase"
               >
                 FB
               </a>
@@ -605,7 +605,7 @@ const Agancy = () => {
                 href="https://www.instagram.com/vibex.solution/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="h-12 md:h-16 lg:h-20 px-4 md:px-6 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs md:text-sm lg:text-xl font-bold uppercase"
+                className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 px-3 sm:px-4 md:px-5 lg:px-6 xl:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold uppercase"
               >
                 IG
               </a>
@@ -613,7 +613,7 @@ const Agancy = () => {
                 href="https://x.com/vibex_solution"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="h-12 md:h-16 lg:h-20 px-4 md:px-6 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs md:text-sm lg:text-xl font-bold uppercase"
+                className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 px-3 sm:px-4 md:px-5 lg:px-6 xl:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold uppercase"
               >
                 X
               </a>
@@ -621,7 +621,7 @@ const Agancy = () => {
                 href="https://wa.me/923113840943?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="h-12 md:h-16 lg:h-20 px-4 md:px-6 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs md:text-sm lg:text-xl font-bold uppercase"
+                className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 px-3 sm:px-4 md:px-5 lg:px-6 xl:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold uppercase"
               >
                 WA
               </a>
@@ -629,7 +629,7 @@ const Agancy = () => {
 
             {/* Right - Contact Button */}
             <div className="flex items-center">
-              <Link to="/contact" className="h-12 md:h-16 lg:h-20 px-6 md:px-8 lg:px-16 rounded-full border-2 border-white flex items-center justify-center gap-1 md:gap-2 hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs md:text-sm lg:text-xl font-bold uppercase">
+              <Link to="/contact" className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 px-4 sm:px-5 md:px-6 lg:px-8 xl:px-16 rounded-full border-2 border-white flex items-center justify-center gap-1 sm:gap-1.5 md:gap-2 hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold uppercase">
                 CONTACT
                 <span className="text-white">♥</span>
               </Link>
@@ -637,28 +637,28 @@ const Agancy = () => {
           </div>
 
           {/* Bottom Section - Links */}
-          <div className="flex flex-col md:flex-row items-center justify-between px-3 md:px-4 lg:px-8 py-2 md:py-3 lg:py-4 relative gap-2 md:gap-0">
+          <div className="flex flex-col md:flex-row items-center justify-between px-3 sm:px-4 md:px-6 lg:px-8 py-2 sm:py-2.5 md:py-3 lg:py-3.5 relative gap-2 sm:gap-3 md:gap-0">
             {/* Left - Time */}
-            <div className="flex-1 flex items-center justify-center md:justify-start gap-2 md:gap-3 lg:gap-4">
-              <svg className="w-5 h-5 md:w-6 md:h-6 lg:w-8 lg:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="flex-1 flex items-center justify-center md:justify-start gap-2 sm:gap-2.5 md:gap-3 lg:gap-4">
+              <svg className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 xl:w-8 xl:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 002 2 2 2 0 002-2v-1a2 2 0 012-2h1.945M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span className="uppercase text-xs md:text-sm lg:text-2xl font-[font2] font-semibold text-white">{footerTime}</span>
+              <span className="uppercase text-xs sm:text-sm md:text-base lg:text-lg xl:text-2xl font-[font2] font-semibold text-white whitespace-nowrap">{footerTime}</span>
             </div>
             
             {/* Policy Links - Centered */}
-            <div className="flex flex-wrap items-center justify-center gap-1 md:gap-2 lg:gap-4 text-xs md:text-sm lg:text-base">
+            <div className="flex flex-wrap items-center justify-center gap-1 sm:gap-1.5 md:gap-2 lg:gap-3 xl:gap-4 text-xs sm:text-xs md:text-sm lg:text-base">
               <a href="/privacy-policy" className="text-white hover:text-[#D3FD50] transition-colors uppercase cursor-pointer">
                 PRIVACY POLICY
               </a>
               
-              <span className="text-white hidden md:inline">|</span>
+              <span className="text-white hidden sm:inline">|</span>
               
               <a href="/terms-of-service" className="text-white hover:text-[#D3FD50] transition-colors uppercase cursor-pointer">
                 TERMS OF SERVICE
               </a>
               
-              <span className="text-white hidden md:inline">|</span>
+              <span className="text-white hidden sm:inline">|</span>
              
               <a href="/cookie-policy" className="text-white hover:text-[#D3FD50] transition-colors uppercase cursor-pointer">
                 COOKIE POLICY
@@ -669,7 +669,7 @@ const Agancy = () => {
             <div className="flex-1 flex justify-center md:justify-end">
               <button 
                 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                className="text-white hover:text-[#D3FD50] transition-colors uppercase cursor-pointer text-xs md:text-sm lg:text-2xl font-[font2] font-semibold"
+                className="text-white hover:text-[#D3FD50] transition-colors uppercase cursor-pointer text-xs sm:text-sm md:text-base lg:text-lg xl:text-2xl font-[font2] font-semibold whitespace-nowrap"
               >
                 BACK TO TOP
               </button>

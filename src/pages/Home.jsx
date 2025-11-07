@@ -42,13 +42,13 @@ const Home = () => {
         <HomeBottomText />
         
         {/* Time Display - Mobile: Vertical on left side with green background, Desktop: Horizontal with icon */}
-        <div className=' rounded-full rounded-tl-none rounded-br-none h-54 text-center justify-center absolute left-0 top-0-translate-y-1/2 bottom-4 md:bottom-0 md:top-auto md:translate-y-0 flex flex-col md:flex-row items-center md:items-center gap-1 md:gap-3 lg:gap-4 px-2 md:px-4 lg:px-8 py-4 md:pb-3 md:pb-4 lg:pb-6 z-10 bg-[#D3FD50] md:bg-transparent'>
+        <div className=' rounded-full rounded-tl-none rounded-br-none h-54 text-center justify-center absolute left-0 top-0-translate-y-1/2 bottom-4 md:bottom-0 md:top-auto md:translate-y-0 flex flex-col md:flex-row items-center md:items-end gap-1 md:gap-3 lg:gap-4 px-2 md:px-4 lg:px-8 py-4 md:pb-4 lg:pb-6 z-10 bg-black text-white md:bg-transparent'>
           {/* Icon - Hidden on mobile, shown on tablet+ */}
-          <svg className='text-center text-black md:block w-6 md:h-6 lg:w-8 lg:h-8 text-black' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+          <svg className='text-center text-white md:block w-6 md:h-6 lg:w-8 lg:h-8 text-white' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
             <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 002 2 2 2 0 002-2v-1a2 2 0 012-2h1.945M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
           </svg>
           {/* Time - Vertical on mobile (left side), horizontal on desktop */}
-          <span className=' text-center justify-center uppercase text-xs md:text-base lg:text-2xl font-semibold whitespace-nowrap text-black md:text-white [writing-mode:vertical-rl] md:[writing-mode:horizontal-tb] transform rotate-180 md:rotate-0'>{pakistanTime}</span>
+          <span className=' text-center justify-center uppercase text-xs md:text-base lg:text-2xl font-semibold whitespace-nowrap text-white md:text-white [writing-mode:vertical-rl] md:[writing-mode:horizontal-tb] transform rotate-180 md:rotate-0'>{pakistanTime}</span>
         </div>
 
         {/* WhatsApp Icon - Right Bottom */}

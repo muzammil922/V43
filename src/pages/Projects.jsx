@@ -331,16 +331,16 @@ const Projects = () => {
         }}
       >
         {/* Hero Section */}
-        <section ref={heroRef} className="min-h-screen flex flex-col justify-center items-center px-4 py-20 lg:py-32 relative bg-white">
+        <section ref={heroRef} className="min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20 lg:py-24 pb-0 sm:pb-2 md:pb-4 lg:pb-6 relative bg-white">
           <div className="max-w-7xl mx-auto w-full">
-            <div className="text-center">
-              <h1 className="hero-text text-[15vw] lg:text-[12vw] font-[font2] font-bold uppercase leading-none mb-6 text-black">
+            <div className="text-center mb-0">
+              <h1 className="hero-text text-[14vw] sm:text-[13vw] md:text-[11vw] lg:text-[10vw] xl:text-[9vw] font-[font2] font-bold uppercase leading-[0.9] mb-2 sm:mb-3 md:mb-4 text-black">
                 Our
               </h1>
-              <h1 className="hero-text text-[15vw] lg:text-[12vw] font-[font2] font-bold uppercase leading-none mb-8 text-black">
+              <h1 className="hero-text text-[14vw] sm:text-[13vw] md:text-[11vw] lg:text-[10vw] xl:text-[9vw] font-[font2] font-bold uppercase leading-[0.9] mb-3 sm:mb-4 md:mb-6 text-black">
                 Projects
               </h1>
-              <p className="hero-text text-lg lg:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+              <p className="hero-text text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed px-2 sm:px-4">
                 Showcasing innovative solutions that transform businesses through cutting-edge technology and creative design.
               </p>
             </div>
@@ -348,9 +348,9 @@ const Projects = () => {
         </section>
 
         {/* Projects Grid Section */}
-        <section ref={projectsRef} className="py-20 lg:py-32 bg-white">
-          <div ref={contentSectionRef} className="max-w-7xl mx-auto px-4">
-            <div className="space-y-8 lg:space-y-16">
+        <section ref={projectsRef} className="pt-0 sm:pt-2 md:pt-4 lg:pt-6 pb-8 sm:pb-12 md:pb-16 lg:pb-20 xl:pb-24 bg-white">
+          <div ref={contentSectionRef} className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+            <div className="space-y-16 sm:space-y-20 md:space-y-24 lg:space-y-28">
               {projects.map((project, index) => (
                 <div
                   key={project.id}
@@ -358,11 +358,11 @@ const Projects = () => {
                   onMouseEnter={() => setHoveredProject(project.id)}
                   onMouseLeave={() => setHoveredProject(null)}
                 >
-                  <div className="grid lg:grid-cols-2 gap-4 lg:gap-8 items-center">
+                  <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-12 items-center">
                     {/* Project Images */}
-                    <div className="relative overflow-hidden rounded-2xl lg:rounded-3xl">
-                      <div className="grid grid-cols-2 gap-4 h-[300px] lg:h-[500px]">
-                        <div className="relative overflow-hidden rounded-xl group-hover:scale-105 transition-transform duration-500">
+                    <div className="relative overflow-hidden rounded-lg sm:rounded-xl md:rounded-2xl lg:rounded-3xl order-2 lg:order-1">
+                      <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4 h-[200px] sm:h-[250px] md:h-[300px] lg:h-[400px] xl:h-[450px]">
+                        <div className="relative overflow-hidden rounded-md sm:rounded-lg md:rounded-xl group-hover:scale-105 transition-transform duration-500">
                           <img 
                             src={project.image1} 
                             alt={project.title}
@@ -370,7 +370,7 @@ const Projects = () => {
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         </div>
-                        <div className="relative overflow-hidden rounded-xl group-hover:scale-105 transition-transform duration-500">
+                        <div className="relative overflow-hidden rounded-md sm:rounded-lg md:rounded-xl group-hover:scale-105 transition-transform duration-500">
                           <img 
                             src={project.image2} 
                             alt={project.title}
@@ -381,12 +381,12 @@ const Projects = () => {
                       </div>
                       
                       {/* Hover Overlay */}
-                      <div className="absolute inset-0 bg-[#D3FD50]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-2xl lg:rounded-3xl pointer-events-none">
+                      <div className="absolute inset-0 bg-[#D3FD50]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-lg sm:rounded-xl md:rounded-2xl lg:rounded-3xl pointer-events-none">
                         <a
                           href={project.link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="px-8 py-4 bg-[#D3FD50] text-black font-bold uppercase rounded-full text-lg lg:text-xl hover:scale-110 transition-transform duration-300 pointer-events-auto"
+                          className="px-6 sm:px-8 py-3 sm:py-4 bg-[#D3FD50] text-black font-bold uppercase rounded-full text-sm sm:text-base md:text-lg lg:text-xl hover:scale-110 transition-transform duration-300 pointer-events-auto"
                         >
                           View Project →
                         </a>
@@ -394,27 +394,27 @@ const Projects = () => {
                     </div>
 
                     {/* Project Info */}
-                    <div className="space-y-4 lg:space-y-6">
-                      <div className="flex items-center gap-3">
-                        <span className="text-xs lg:text-sm font-bold text-[#D3FD50] uppercase tracking-wider">
+                    <div className="space-y-3 sm:space-y-4 md:space-y-5 lg:space-y-6 order-1 lg:order-2">
+                      <div className="flex items-center gap-2 sm:gap-2.5 md:gap-3">
+                        <span className="text-xs sm:text-sm md:text-base font-bold text-[#D3FD50] uppercase tracking-wider">
                           {project.category}
                         </span>
                         <span className="text-gray-400">•</span>
-                        <span className="text-xs lg:text-sm text-gray-500">
+                        <span className="text-xs sm:text-sm md:text-base text-gray-500">
                           Project {String(index + 1).padStart(2, '0')}
                         </span>
                       </div>
-                      <h2 className="text-4xl lg:text-6xl font-[font2] font-bold text-black uppercase">
+                      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-[font2] font-bold text-black uppercase leading-tight">
                         {project.title}
                       </h2>
-                      <p className="text-base lg:text-lg text-gray-600 leading-relaxed">
+                      <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed">
                         {project.description}
                       </p>
                       <a
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 text-black hover:text-[#D3FD50] font-semibold uppercase text-sm lg:text-base transition-colors group"
+                        className="inline-flex items-center gap-2 text-black hover:text-[#D3FD50] font-semibold uppercase text-xs sm:text-sm md:text-base lg:text-lg transition-colors group"
                       >
                         Explore Project
                         <span className="group-hover:translate-x-2 transition-transform duration-300">→</span>
@@ -445,14 +445,14 @@ const Projects = () => {
           }}
         >
           {/* Top Section - Social Icons and Contact */}
-          <div className="flex flex-col md:flex-row items-center justify-between px-4 md:px-6 lg:px-12 py-4 md:py-6 lg:py-8 gap-4 md:gap-0">
+          <div className="flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 md:px-8 lg:px-12 py-3 sm:py-4 md:py-5 lg:py-6 gap-3 sm:gap-4 md:gap-0">
             {/* Left - Social Icons */}
-            <div className="flex items-center gap-2 md:gap-3 lg:gap-4">
+            <div className="flex items-center gap-2 sm:gap-2.5 md:gap-3 lg:gap-4 flex-wrap justify-center md:justify-start">
               <a
                 href="https://facebook.com/mydashypro"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="h-12 md:h-16 lg:h-20 px-4 md:px-6 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs md:text-sm lg:text-xl font-bold uppercase"
+                className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 px-3 sm:px-4 md:px-5 lg:px-6 xl:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold uppercase"
               >
                 FB
               </a>
@@ -460,7 +460,7 @@ const Projects = () => {
                 href="https://www.instagram.com/vibex.solution/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="h-12 md:h-16 lg:h-20 px-4 md:px-6 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs md:text-sm lg:text-xl font-bold uppercase"
+                className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 px-3 sm:px-4 md:px-5 lg:px-6 xl:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold uppercase"
               >
                 IG
               </a>
@@ -468,7 +468,7 @@ const Projects = () => {
                 href="https://x.com/vibex_solution"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="h-12 md:h-16 lg:h-20 px-4 md:px-6 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs md:text-sm lg:text-xl font-bold uppercase"
+                className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 px-3 sm:px-4 md:px-5 lg:px-6 xl:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold uppercase"
               >
                 X
               </a>
@@ -476,7 +476,7 @@ const Projects = () => {
                 href="https://wa.me/923113840943?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="h-12 md:h-16 lg:h-20 px-4 md:px-6 lg:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs md:text-sm lg:text-xl font-bold uppercase"
+                className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 px-3 sm:px-4 md:px-5 lg:px-6 xl:px-12 rounded-full border-2 border-white flex items-center justify-center hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold uppercase"
               >
                 WA
               </a>
@@ -484,7 +484,7 @@ const Projects = () => {
 
             {/* Right - Contact Button */}
             <div className="flex items-center">
-              <Link to="/contact" className="h-12 md:h-16 lg:h-20 px-6 md:px-8 lg:px-16 rounded-full border-2 border-white flex items-center justify-center gap-1 md:gap-2 hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs md:text-sm lg:text-xl font-bold uppercase">
+              <Link to="/contact" className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 px-4 sm:px-5 md:px-6 lg:px-8 xl:px-16 rounded-full border-2 border-white flex items-center justify-center gap-1 sm:gap-1.5 md:gap-2 hover:border-[#D3FD50] hover:text-[#D3FD50] transition-colors cursor-pointer text-white bg-transparent text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold uppercase">
                 CONTACT
                 <span className="text-white">♥</span>
               </Link>
@@ -492,28 +492,28 @@ const Projects = () => {
           </div>
 
           {/* Bottom Section - Links */}
-          <div className="flex flex-col md:flex-row items-center justify-between px-3 md:px-4 lg:px-8 py-2 md:py-3 lg:py-4 relative gap-2 md:gap-0">
+          <div className="flex flex-col md:flex-row items-center justify-between px-3 sm:px-4 md:px-6 lg:px-8 py-2 sm:py-2.5 md:py-3 lg:py-3.5 relative gap-2 sm:gap-3 md:gap-0">
             {/* Left - Time */}
-            <div className="flex-1 flex items-center justify-center md:justify-start gap-2 md:gap-3 lg:gap-4">
-              <svg className="w-5 h-5 md:w-6 md:h-6 lg:w-8 lg:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="flex-1 flex items-center justify-center md:justify-start gap-2 sm:gap-2.5 md:gap-3 lg:gap-4">
+              <svg className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 xl:w-8 xl:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 002 2 2 2 0 002-2v-1a2 2 0 012-2h1.945M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              <span className="uppercase text-xs md:text-sm lg:text-2xl font-[font2] font-semibold text-white">{footerTime}</span>
+              <span className="uppercase text-xs sm:text-sm md:text-base lg:text-lg xl:text-2xl font-[font2] font-semibold text-white whitespace-nowrap">{footerTime}</span>
             </div>
             
             {/* Policy Links - Centered */}
-            <div className="flex flex-wrap items-center justify-center gap-1 md:gap-2 lg:gap-4 text-xs md:text-sm lg:text-base">
+            <div className="flex flex-wrap items-center justify-center gap-1 sm:gap-1.5 md:gap-2 lg:gap-3 xl:gap-4 text-xs sm:text-xs md:text-sm lg:text-base">
               <a href="/privacy-policy" className="text-white hover:text-[#D3FD50] transition-colors uppercase cursor-pointer">
                 PRIVACY POLICY
               </a>
               
-              <span className="text-white hidden md:inline">|</span>
+              <span className="text-white hidden sm:inline">|</span>
               
               <a href="/terms-of-service" className="text-white hover:text-[#D3FD50] transition-colors uppercase cursor-pointer">
                 TERMS OF SERVICE
               </a>
               
-              <span className="text-white hidden md:inline">|</span>
+              <span className="text-white hidden sm:inline">|</span>
              
               <a href="/cookie-policy" className="text-white hover:text-[#D3FD50] transition-colors uppercase cursor-pointer">
                 COOKIE POLICY
@@ -524,7 +524,7 @@ const Projects = () => {
             <div className="flex-1 flex justify-center md:justify-end">
               <button 
                 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                className="text-white hover:text-[#D3FD50] transition-colors uppercase cursor-pointer text-xs md:text-sm lg:text-2xl font-[font2] font-semibold"
+                className="text-white hover:text-[#D3FD50] transition-colors uppercase cursor-pointer text-xs sm:text-sm md:text-base lg:text-lg xl:text-2xl font-[font2] font-semibold whitespace-nowrap"
               >
                 BACK TO TOP
               </button>
