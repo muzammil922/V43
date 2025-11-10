@@ -105,7 +105,7 @@ Primary keywords optimized throughout:
 1. **Submit Sitemap:**
    - Go to Google Search Console
    - Add property: https://vibexsolution.com
-   - Submit sitemap: https://vibexsolution.com/sitemap.xml
+   - Submit sitemap: https://vibexsolution.com/ 
 
 2. **Verify Ownership:**
    - Add HTML meta tag or upload verification file
